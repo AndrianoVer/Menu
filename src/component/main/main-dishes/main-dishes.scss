@@ -1,0 +1,56 @@
+.main {
+  display: inline-block;
+  width: 60%;
+  // max-width: 1070px;
+  background-color: rgba(46%, 46%, 46%, 0.5);
+  text-align: center;
+  padding: 0 20px;
+
+  .main-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
+    display: inline;
+    margin: 0;
+  }
+
+  .varenuk-svg,
+  .bbg-png,
+  .salad-png,
+  .alcohol-png,
+  .coffee-png {
+    display: inline;
+    width: 5%;
+    margin-right: 10px;
+  }
+
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .item-name {
+    text-align: left;
+    width: 75%;
+  }
+
+  .price,
+  .gram {
+    text-align: right;
+    width: 10%;
+  }
+
+  .item-hot-drinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+}
+
+@media (max-width: 1383px) {
+}
