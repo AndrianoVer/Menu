@@ -8,7 +8,7 @@ const AlcoholDrinks = () => {
     return (
         <div className='main'>
             <div className='main-item'>
-                <img className='alcohol-png' src={logo} alt='alchogol.png'></img>
+                <img className='pictogram' src={logo} alt='alchogol.png'></img>
                 <h1>АЛКОГОЛЬНІ НАПОЇ</h1>
             </div>
                        

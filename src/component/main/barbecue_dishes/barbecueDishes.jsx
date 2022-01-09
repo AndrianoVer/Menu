@@ -8,7 +8,7 @@ const BarbecueDishes = () => {
     return (
         <div className='main'>
         <div className='main-item'>
-            <img className='bbg-png' src={bbq} alt='bbq.png'></img>
+            <img className='pictogram' src={bbq} alt='bbq.png'></img>
             <h1>СТРАВИ НА МАНГАЛІ</h1>
         </div>                        
             <article className='item'>

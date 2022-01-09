@@ -8,7 +8,7 @@ const CoffeeTea = () => {
     return (
         <div className='main'>
             <div className='main-item'>
-                <img className='coffee-png' src={logo} alt='varenuk.svg'></img>
+                <img className='pictogram' src={logo} alt='varenuk.svg'></img>
                 <h1>КАВА</h1>
             </div>                       
             <article className='item'>

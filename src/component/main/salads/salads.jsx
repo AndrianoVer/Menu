@@ -8,7 +8,7 @@ const Salads = () => {
     return (
         <div className='main'>
             <div className='main-item'>
-                <img className='salad-png' src={salad} alt='salad.png'></img>
+                <img className='pictogram' src={salad} alt='salad.png'></img>
                 <h1>САЛАТИ</h1>
             </div>                        
             <article className='item'>
